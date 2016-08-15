@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+html {
+  font-size: 62.5%; }
+
+.box {
+  background-image: url("../img/rain_2.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+h1, h2, h3 {
+  font-size: 300%;
+  color: #0f949b;
+  text-align: center;
+  margin: 50px 40px auto;
+  font-family: sans-serif; }
+
+h2 {
+  font-size: 100%;
+  margin: 30px 20px auto; }
+
+.block {
+  font-size: 150%;
+  background-color: #ddffff;
+  width: 30%;
+  float: left;
+  text-align: center;
+  padding: 10px 5px 30px 5px;
+  margin: 1%;
+  border-radius: 5px;
+  margin-right: 0; }
+
+.skill {
+  margin: 5%;
+  margin-bottom: 15%; }
+
+h3 {
+  font-size: 100%;
+  clear: left;
+  text-align: center;
+  padding-top: 50px; }
+
+#bottun {
+  clear: left;
+  width: 200px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 5px 0 10px;
+  color: #333;
+  background-color: #49a9d4;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto; }
+  #bottun a {
+    color: #fff; }
+
+@media (max-width: 768px) {
+  .block {
+    width: 90%;
+    flex-direction: column;
+    color: red; }
+
+  .box {
+    height: 250px; } }
+
+/*# sourceMappingURL=style.css.map */
