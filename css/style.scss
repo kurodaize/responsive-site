@@ -8,7 +8,7 @@ $baseColor: #fdfcf6;
 $subColor: #FFF7A0;
 $keyColor: #14c0c9;
 $fontColor: #4c4c4c;
-$set_prefix: -webkit-, -moz-, -ms-, -o-, '';
+$set_prefix: -webkit-, -moz-, -ms-, -o-,;
 
 @mixin borderRadius(){
   @each $prefix in $set_prefix {
