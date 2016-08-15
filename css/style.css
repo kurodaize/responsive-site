@@ -40,13 +40,19 @@ h2 {
 
 .skill {
   margin: 5%;
-  margin-bottom: 15%; }
+  margin-bottom: 30%; }
 
 h3 {
   font-size: 100%;
   clear: left;
   text-align: center;
   padding-top: 50px; }
+
+#block4 {
+  clear: left;
+  background-color: #FFF7A0;
+  padding: 0px 0px 20px 0px;
+  margin: 50px 0px 20px 0px; }
 
 #bottun {
   clear: left;
@@ -60,8 +66,13 @@ h3 {
   color: #333;
   background-color: #49a9d4;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
   margin-top: 10px;
-  margin-bottom: 150px;
+  margin-bottom: 70px;
   margin-left: auto;
   margin-right: auto; }
   #bottun a {
@@ -71,7 +82,8 @@ h3 {
   .block {
     width: 90%;
     flex-direction: column;
-    color: red; }
+    margin: 5%;
+    margin-bottom: 40px; }
 
   .box {
     height: 250px; } }
